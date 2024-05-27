@@ -10,14 +10,14 @@
             $this->nomorTelepon=$nomorTelepon;
         }
         
-        public function getId(){
+        public function getId():int{
             return $this->id;
         }
-        public function getName(){
+        public function getName():string{
             return $this->name;
         }
 
-        public function getNomorTelepon(){
+        public function getNomorTelepon():string{
             return $this->nomorTelepon;
         }
     }
